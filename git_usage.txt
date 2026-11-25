@@ -15,3 +15,13 @@ merge操作可以使得分支合并回主干（main/master）
 detached：分离头指针，可以让整个仓库代码回退到某个分支上面，但此状态下尽量不要修改代码，一般用于查看
 （非常实用的功能，不过一般不建议在head指向历史版本的时候进行代码编辑）
 （操作：在vscode中，右键点击“Graph”的某个历史版本，然后选择“Checkout Detached”）
+
+————
+Git Areas（分区）概念介绍
+Working Directory（工作区）：电脑磁盘上的本地文件夹
+Local Repository（本地仓库）：commit以后改动就提交到了本地仓库
+Remote Repository（远程仓库）：如GitHub
+
+几种常见操作：
+git clone：将远端仓库直接同步到工作区
+git push（publish）：将本地仓库直接上传到远程仓库
