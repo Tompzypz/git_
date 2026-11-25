@@ -11,3 +11,5 @@ revert，……
 branch建立分支（vscode左下角可以操作，并进行随时切换）
 merge操作可以使得分支合并回主干（main/master）
 概念head：当前仓库处于哪一次commit上面
+
+然后我再尝试修改一下
